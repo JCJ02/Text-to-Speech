@@ -586,6 +586,35 @@ video {
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
+.bg-gradient-to-tr{
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.from-\[\#515BD4\]{
+  --tw-gradient-from: #515BD4 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(81 91 212 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-\[\#8134AF\]{
+  --tw-gradient-to: rgb(129 52 175 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #8134AF var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-\[\#DD2A7B\]{
+  --tw-gradient-to: rgb(221 42 123 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #DD2A7B var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-\[\#FEDA77\]{
+  --tw-gradient-to: rgb(254 218 119 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #FEDA77 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.to-\[\#F58529\]{
+  --tw-gradient-to: #F58529 var(--tw-gradient-to-position);
+}
+
 .p-2{
   padding: 0.5rem;
 }
@@ -642,6 +671,20 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-all{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-500{
+  transition-duration: 500ms;
+}
+
+.ease-in-out{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .placeholder\:tracking-widest::-moz-placeholder{
   letter-spacing: 0.1em;
 }
@@ -653,6 +696,54 @@ video {
 .hover\:bg-slate-400:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gradient-to-tr:hover{
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.hover\:bg-gradient-to-r:hover{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.hover\:from-\[\#515BD4\]:hover{
+  --tw-gradient-from: #515BD4 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(81 91 212 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.hover\:via-\[\#8134AF\]:hover{
+  --tw-gradient-to: rgb(129 52 175 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #8134AF var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.hover\:via-\[\#DD2A7B\]:hover{
+  --tw-gradient-to: rgb(221 42 123 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #DD2A7B var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.hover\:via-\[\#FEDA77\]:hover{
+  --tw-gradient-to: rgb(254 218 119 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #FEDA77 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.hover\:to-\[\#F58529\]:hover{
+  --tw-gradient-to: #F58529 var(--tw-gradient-to-position);
+}
+
+.hover\:text-\[\#000000\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#1877F2\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(24 119 242 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#1D9BF0\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(29 155 240 / var(--tw-text-opacity));
 }
 
 .hover\:text-slate-900:hover{
