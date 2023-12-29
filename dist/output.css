@@ -586,10 +586,6 @@ video {
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-tr{
-  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-}
-
 .from-\[\#515BD4\]{
   --tw-gradient-from: #515BD4 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(81 91 212 / 0) var(--tw-gradient-to-position);
@@ -663,14 +659,6 @@ video {
   color: rgb(15 23 42 / var(--tw-text-opacity));
 }
 
-.transition{
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .transition-all{
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -698,37 +686,8 @@ video {
   background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-gradient-to-tr:hover{
-  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-}
-
 .hover\:bg-gradient-to-r:hover{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.hover\:from-\[\#515BD4\]:hover{
-  --tw-gradient-from: #515BD4 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(81 91 212 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.hover\:via-\[\#8134AF\]:hover{
-  --tw-gradient-to: rgb(129 52 175 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #8134AF var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
-.hover\:via-\[\#DD2A7B\]:hover{
-  --tw-gradient-to: rgb(221 42 123 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #DD2A7B var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
-.hover\:via-\[\#FEDA77\]:hover{
-  --tw-gradient-to: rgb(254 218 119 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #FEDA77 var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
-.hover\:to-\[\#F58529\]:hover{
-  --tw-gradient-to: #F58529 var(--tw-gradient-to-position);
 }
 
 .hover\:text-\[\#000000\]:hover{
